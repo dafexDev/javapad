@@ -6,7 +6,7 @@
 
     <groupId>com.danielfortch18</groupId>
     <artifactId>javapad</artifactId>
-    <version>1.0-beta</version>
+    <version>1.0</version>
     <url>https://github.com/dfortch18/javapad</url>
 
     <properties>
