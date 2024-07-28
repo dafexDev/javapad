@@ -1,5 +1,6 @@
 package com.dfortch.javapad.io;
 
+import jakarta.enterprise.inject.Vetoed;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -9,6 +10,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Objects;
 
+@Vetoed
 public class FileOperationsImpl implements FileOperations {
 
     private static final Logger log = LogManager.getLogger(FileOperationsImpl.class);
