@@ -8,7 +8,7 @@ import java.util.Locale;
 
 public class JavapadConstants {
 
-    protected static final Locale[] AVAILABLE_LOCALES = {Locale.ENGLISH, Locale.forLanguageTag("es")};
+    protected static final Locale[] AVAILABLE_LOCALES = {Locale.ENGLISH, Locale.FRENCH, Locale.forLanguageTag("es")};
 
     public static final Locale DEFAULT_LOCALE = Locale.ENGLISH;
 
