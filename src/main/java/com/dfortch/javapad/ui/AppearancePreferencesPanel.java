@@ -77,7 +77,7 @@ public class AppearancePreferencesPanel extends JPanel implements PreferencesCha
     private void updateThemeComboBox() {
         DefaultComboBoxModel<JavapadTheme> model = (DefaultComboBoxModel<JavapadTheme>) themeComboBox.getModel();
         model.removeAllElements();
-        for (JavapadTheme theme : JavapadTheme.values()) {
+        for (JavapadTheme theme : JavapadTheme.getSupportedThemes()) {
             model.addElement(theme);
         }
         themeComboBox.setRenderer(new ThemeRenderer(messageProvider));

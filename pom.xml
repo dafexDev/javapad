@@ -107,7 +107,8 @@
                         <configuration>
                             <excludes>
                                 <exclude>**/BuildInfo.class</exclude>
-                                <exclude>**/DefaultJavapadUserPreferencesProperties.class</exclude>
+                                <exclude>**/JavapadConfiguration.class</exclude>
+                                <exclude>**/JavapadConfiguration$*.class</exclude>
                                 <exclude>**/DependencyContainer.class</exclude>
                                 <exclude>**/JavapadConstants.class</exclude>
                                 <exclude>**/ui/*.class</exclude>

@@ -12,7 +12,7 @@ public class JavapadConstants {
 
     public static final Locale DEFAULT_LOCALE = Locale.ENGLISH;
 
-    public static final JavapadTheme DEFAULT_THEME = JavapadTheme.LIGHT;
+    public static final JavapadTheme DEFAULT_THEME = JavapadTheme.FLATLAF_LIGHT;
 
     public static final String MESSAGE_RESOURCE_BUNDLE_BASE_NAME = "com.dfortch.javapad.messages";
 
