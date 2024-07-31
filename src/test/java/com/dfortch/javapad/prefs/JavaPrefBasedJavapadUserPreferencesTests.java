@@ -21,7 +21,7 @@ class JavaPrefBasedJavapadUserPreferencesTests {
         properties = mock(JavapadUserPreferencesProperties.class);
         when(properties.getAvailableLocales()).thenReturn(new Locale[]{Locale.ENGLISH, Locale.FRENCH});
         when(properties.getDefaultLocale()).thenReturn(Locale.ENGLISH);
-        when(properties.getDefaultTheme()).thenReturn(JavapadTheme.DARK);
+        when(properties.getDefaultTheme()).thenReturn(JavapadTheme.FLATLAF_DARK);
         when(properties.getDefaultEditorFont()).thenReturn(new Font(Font.MONOSPACED, Font.PLAIN, 12));
         when(properties.getDefaultEditorForegroundColor()).thenReturn(Color.BLACK);
         when(properties.getDefaultEditorBackgroundColor()).thenReturn(Color.WHITE);
@@ -52,7 +52,7 @@ class JavaPrefBasedJavapadUserPreferencesTests {
     @DisplayName("Get and set theme: success")
     @Test
     void testGetAndSetTheme_Success() {
-        JavapadTheme newTheme = JavapadTheme.LIGHT;
+        JavapadTheme newTheme = JavapadTheme.FLATLAF_LIGHT;
 
         preferences.setTheme(newTheme);
         JavapadTheme retrievedTheme = preferences.getTheme();

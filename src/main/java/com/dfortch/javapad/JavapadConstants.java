@@ -8,11 +8,11 @@ import java.util.Locale;
 
 public class JavapadConstants {
 
-    protected static final Locale[] AVAILABLE_LOCALES = {Locale.ENGLISH, Locale.forLanguageTag("es")};
+    protected static final Locale[] AVAILABLE_LOCALES = {Locale.ENGLISH, Locale.FRENCH, Locale.forLanguageTag("es")};
 
     public static final Locale DEFAULT_LOCALE = Locale.ENGLISH;
 
-    public static final JavapadTheme DEFAULT_THEME = JavapadTheme.LIGHT;
+    public static final JavapadTheme DEFAULT_THEME = JavapadTheme.FLATLAF_LIGHT;
 
     public static final String MESSAGE_RESOURCE_BUNDLE_BASE_NAME = "com.dfortch.javapad.messages";
 

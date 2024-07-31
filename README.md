@@ -12,7 +12,7 @@ JavaPad is a simple and user-friendly text editor written in Java. It includes e
 
 - **Open, Save, and Create Files:** Easily manage your text files.
 - **Undo, Redo, Cut, Copy, Paste:** Full support for text editing operations.
-- **Light and Dark Themes:** Choose between light and dark themes to suit your preference.
+- **Light and Dark Themes:** Choose between light, dark, and native themes to suit your preferences.
 - **Editor Customization:** Personalize the appearance and behavior of the editor.
 - **Multilingual Support:** Available in both English and Spanish.
 
@@ -35,7 +35,7 @@ JavaPad is a simple and user-friendly text editor written in Java. It includes e
 
 To run JavaPad, use the following command after building the project:
 ```bash
-java -jar target/javapad-1.0.jar
+java -jar target/javapad-1.1.jar
 ```
 
 ## Development
@@ -91,3 +91,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 - [AssertJ](https://github.com/assertj/assertj) for fluent assertions in testing.
 - [JUnit 5](https://junit.org/junit5/) for the testing framework.
 - [Mockito](https://site.mockito.org/) for mocking in tests.
+- [Weld SE](https://weld.cdi-spec.org/) for the CDI implementation.
