@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.danielfortch18</groupId>
+    <groupId>com.dfortch18</groupId>
     <artifactId>javapad</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <url>https://github.com/dfortch18/javapad</url>
 
     <properties>
