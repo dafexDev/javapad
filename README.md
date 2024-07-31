@@ -35,7 +35,7 @@ JavaPad is a simple and user-friendly text editor written in Java. It includes e
 
 To run JavaPad, use the following command after building the project:
 ```bash
-java -jar target/javapad.jar
+java -jar target/javapad-1.0.jar
 ```
 
 ## Development
