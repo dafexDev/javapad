@@ -20,7 +20,7 @@ JavaPad is a simple and user-friendly text editor written in Java. It includes e
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/dfortch18/javapad.git
+    git clone https://github.com/dafexDev/javapad.git
     ```
 2. Navigate to the directory
     ```bash
